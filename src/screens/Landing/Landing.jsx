@@ -11,7 +11,7 @@ export const Landing = () => {
         <div className="menu">
           <div className="logo">
             <img className="favicon" alt="Favicon" src="/img/favicon.svg" />
-            <div className="text-wrapper-3">MediReport</div>
+            <div className="text-wrapper-3">Medi AI</div>
           </div>
           <div className="menu-items">
             <div className="text-wrapper-4">Great assesment from our specialize Doctor's</div>
@@ -23,7 +23,7 @@ export const Landing = () => {
         <div className="overlap">
           <div className="conditions-we-treat">
             <div className="overlap-group">
-              <div className="text-wrapper-5">Conditions We Analyse</div>
+              <div className="text-wrapper-5">Some Conditions AI Can Analyse</div>
               <img className="thunder" alt="Thunder" src="/img/thunder.png" />
             </div>
             <p className="p">Our AI specialize in complex health issues ignored by conventional medicine and doctor's.</p>
