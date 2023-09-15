@@ -1,0 +1,7 @@
+:root {
+  --background: rgba(242, 244, 234, 1);
+  --black: rgba(0, 0, 0, 1);
+  --highlighted: rgba(241, 234, 186, 1);
+  --main: rgba(31, 77, 54, 1);
+  --outline: rgba(199, 211, 196, 1);
+}

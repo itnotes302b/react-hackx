@@ -1,0 +1,31 @@
+.learn-more {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--main);
+  border-radius: 100px;
+  display: flex;
+  gap: 10px;
+  height: 52px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+  width: 208px;
+}
+
+.learn-more .play-circle-2 {
+  height: 28px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.learn-more .text-wrapper-2 {
+  color: var(--main);
+  font-family: "TT Commons-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

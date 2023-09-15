@@ -1,0 +1,74 @@
+.buttons {
+  align-items: center;
+  border-radius: 100px;
+  gap: 10px;
+  height: 42px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.buttons .text-wrapper {
+  font-family: "TT Commons-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -2px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.buttons .play-circle {
+  height: 28px !important;
+  margin-bottom: -3px !important;
+  margin-top: -3px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.buttons .div {
+  color: var(--main);
+  font-family: "TT Commons-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -4px;
+  margin-top: -2px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.buttons.outline {
+  border: 1px solid;
+  border-color: var(--main);
+  display: inline-flex;
+  justify-content: center;
+}
+
+.buttons.w-icon {
+  border: 1px solid;
+  border-color: var(--main);
+  display: flex;
+  width: 208px;
+}
+
+.buttons.filled {
+  background-color: var(--main);
+  display: inline-flex;
+  justify-content: center;
+}
+
+.buttons.outline .text-wrapper {
+  color: var(--main);
+}
+
+.buttons.w-icon .text-wrapper {
+  color: var(--main);
+}
+
+.buttons.filled .text-wrapper {
+  color: var(--background);
+}
